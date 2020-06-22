@@ -1,0 +1,22 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body {
+  background: black;
+  height: 100%;
+  text-align: center;
+  color: #17D4FE;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 7px;
+}
+.clock {
+  font-size: 60px;
+}
+#show {
+    font-size: 60px;
+}
+#minutes {
+  border-radius: 10px;
+}
+#myButton {
+  border-radius: 10px;
+}

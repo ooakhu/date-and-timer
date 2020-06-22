@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+    
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body onload="tellTime()" onload="tellDate()" onload="todaysDate()">
+
+<!--html for clock-->
+<div id="MyClockDisplay" class="clock"></div>
+
+<!--html for date-->
+<div id="show"></div>
+
+<!---html for timer--->
+<h1><span>Timer</span></h1>
+
+<div id="canvas" class="container group">
+    <div id="primaryContent" class="group">
+    	<p>Input The Time In Minutes And Click Start</p>
+	    <div id="inputArea">
+            <input type="text" id="minutes"> <input type="button" value="Start" id="myButton" onclick="startCounter()">
+        </div>
+		<h2 id="time">0:00</h2>
+    </div>  
+</div>
+<script src="./app.js"></script>
+</body>
+</html>
